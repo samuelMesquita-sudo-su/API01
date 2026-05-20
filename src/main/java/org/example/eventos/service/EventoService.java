@@ -67,7 +67,7 @@ public class EventoService {
     }
 
     public List<EventoResponseDTO> filtrarPorNome(String nome){
-        return eventoRepository.findByNomeContainigIgnoreCase(nome)
+        return eventoRepository.findByNomeContainingIgnoreCase(nome)
                 .stream()
                 .map(this::toResponseDTO)
                 .toList();
