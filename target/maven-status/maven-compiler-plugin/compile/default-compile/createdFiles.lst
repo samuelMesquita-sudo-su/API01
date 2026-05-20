@@ -1,0 +1,3 @@
+org\example\eventos\config\SwaggerConfig.class
+org\example\eventos\controller\EventoController.class
+org\example\eventos\EventosApplication.class
